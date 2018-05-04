@@ -1,0 +1,13 @@
+body{
+    background-image:url("bgg.jpg");
+    background-repeat:y-repeat;	
+    font-family:"Times New Roman", Times, serif;
+    font-size: 12pt;
+    color:white;
+    box-shadow:white;
+}
+
+img {
+    border-radius: 8px;
+}
+

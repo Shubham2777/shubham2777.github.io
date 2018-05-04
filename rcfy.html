@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Right Car For You</title>
+<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body style="width: 400px; height: 186px">
+
+<a href="index.html">
+<img alt="logo" height="200" src="logo.png" width="310" />
+</a>
+<table align="center" style="width: 201%">
+	<tr>
+		<td style="width: 121px"><a href="rcfy.html">Right Car For You</a></td>
+		<td style="width: 76px">&nbsp;&nbsp;<a href="ourcars.html"> Our Cars</a></td>
+		<td style="width: 128px">&nbsp;<a href="T&C.html"> Terms &amp; Conditions</a></td>
+		<td style="width: 156px"><a href="C&L.html">&nbsp; Locations &amp; Contact Us</a></td>
+		<td style="width: 69px">&nbsp;<a href="aboutus.html"> About Us</a></td>
+	</tr>
+</table>
+
+<h2>Confused Which Car You Want TO Rent? Don't Worry We Can Help You Out</h2>
+<script>
+	function carSelect(){
+	var x=document.getElementById("Select1");
+	var y=document.getElementById("Select2");
+	var z=x.value;
+	
+	if(z == "Ford"){
+	    var option1 = document.createElement("option");
+	    var option2 = document.createElement("option");
+  	    option1.text="Tarus, F-150, F-250";
+	   
+	    y.add(option1);
+	}
+	
+	if(z == "Kia"){
+	    var option1 = document.createElement("option");
+	    var option2 = document.createElement("option");
+  	    option1.text="Optima";
+	   
+	    y.add(option1);
+	}
+	if(z == "Benz"){
+	    var option1 = document.createElement("option");
+	    var option2 = document.createElement("option");
+  	    option1.text="CLA-250";
+	   
+	    y.add(option1);
+	}
+	if(z == "Dodge"){
+	    var option1 = document.createElement("option");
+	    var option2 = document.createElement("option");
+  	    option1.text="Ram-1500";
+	   
+	    y.add(option1);
+	}
+	if(z == "GMC"){
+	    var option1 = document.createElement("option");
+	    var option2 = document.createElement("option");
+  	    option1.text="Yukon";
+	   
+	    y.add(option1);
+	}
+	if(z == "Volkswagon"){
+	    var option1 = document.createElement("option");
+	    var option2 = document.createElement("option");
+  	    option1.text="CC";
+	   
+	    y.add(option1);
+	}
+	if(z == "Landrover"){
+	    var option1 = document.createElement("option");
+	    var option2 = document.createElement("option");
+  	    option1.text="Outlander";
+	   
+	    y.add(option1);
+	}
+	
+	
+
+}
+</script>
+<form method="post">
+	<h4>Select The Make Of The Car</h4>
+	<select name="Select1" id="Select1" style="width: 235px">
+	<option></option>
+	<option>Ford </option>
+	<option>Kia</option>
+	<option>Benz</option>
+	<option>Chrysler</option>
+	<option>Dodge</option>
+	<option>Hummer</option>
+	<option>GMC</option>
+	<option>Volkswagon</option>
+	<option>LandRover</option></select>
+
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+
+<h4>See Your Results Below!</h4>
+<select name="Select2" id="Select2" style="width: 235px">
+	<option></option>
+	</select>
+<p></p>
+
+
+
+<input name="go" style="width: 83px" type="button" value="GO" onclick="carSelect()">
+</form>
+
+</body>
+
+</html>
